@@ -1,5 +1,5 @@
 server:
-  port : 9090
+  port : 8080
 
 spring:
   datasource:
@@ -7,7 +7,8 @@ spring:
     driverClassName: oracle.jdbc.OracleDriver
     username: DEV_BRGCON
     password: kEzuYe5aqU6UyeP
-    events:
+    
+events:
   serviceCode: ${TEST}
      
 logging:
