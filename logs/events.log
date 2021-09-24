@@ -1,0 +1,324 @@
+[INFO ] 2021-08-30 09:02:09.208 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Requeust URI: /cache/fetch
+[INFO ] 2021-08-30 09:02:09.210 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Headers value for source key: null
+[INFO ] 2021-08-30 09:02:09.211 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Headers value for requestorId key: null
+[INFO ] 2021-08-30 09:02:09.216 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Headers value for msgRequestCode key: null
+[INFO ] 2021-08-30 09:02:09.216 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Requeust Method: POST
+[INFO ] 2021-08-30 09:02:09.218 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Requeust URI: /cache/fetch
+[INFO ] 2021-08-30 09:02:09.218 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Headers value are [content-length=77, postman-token=e5299fed-ca3d-40f3-bee2-68dd3bdb70dd, host=localhost:8082, connection=keep-alive, content-type=application/json, accept-encoding=gzip, deflate, br, accept=*/*, user-agent=PostmanRuntime/7.28.3] ::
+[INFO ] 2021-08-30 09:02:09.244 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Requeust Body: {
+    "tableName": "STREETTYPE",
+	"code": "AL",
+    "key":"DESCRIPTION"
+}
+[INFO ] 2021-08-30 09:02:09.245 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Response status - 404
+[INFO ] 2021-08-30 09:02:09.245 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Response Body - 
+[INFO ] 2021-08-30 09:02:09.373 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - EventDetailsView :: {
+  "actionId" : "POST",
+  "serviceOperationCode" : "Fetch reference data values",
+  "serviceCode" : "reference-data-service-api",
+  "requestTime" : "2021-08-30T09:02:09.278"
+}
+[INFO ] 2021-08-30 09:02:14.976 [http-nio-8082-exec-3] EventLoggingAndValidationInterceptor - Requeust URI: /rt/fetch
+[INFO ] 2021-08-30 09:02:14.976 [http-nio-8082-exec-3] EventLoggingAndValidationInterceptor - Headers value for source key: null
+[INFO ] 2021-08-30 09:02:14.976 [http-nio-8082-exec-3] EventLoggingAndValidationInterceptor - Headers value for requestorId key: null
+[INFO ] 2021-08-30 09:02:14.976 [http-nio-8082-exec-3] EventLoggingAndValidationInterceptor - Headers value for msgRequestCode key: null
+[INFO ] 2021-08-30 09:02:14.976 [http-nio-8082-exec-3] EventLoggingAndValidationInterceptor - Requeust Method: POST
+[INFO ] 2021-08-30 09:02:14.976 [http-nio-8082-exec-3] EventLoggingAndValidationInterceptor - Requeust URI: /rt/fetch
+[INFO ] 2021-08-30 09:02:14.977 [http-nio-8082-exec-3] EventLoggingAndValidationInterceptor - Headers value are [content-length=77, postman-token=ad1855d0-5b19-4c5e-8949-ea2b065295ee, host=localhost:8082, connection=keep-alive, content-type=application/json, accept-encoding=gzip, deflate, br, accept=*/*, user-agent=PostmanRuntime/7.28.3] ::
+[INFO ] 2021-08-30 09:02:14.980 [http-nio-8082-exec-3] EventLoggingAndValidationInterceptor - Requeust Body: {
+    "tableName": "STREETTYPE",
+	"code": "AL",
+    "key":"DESCRIPTION"
+}
+[INFO ] 2021-08-30 09:02:14.980 [http-nio-8082-exec-3] EventLoggingAndValidationInterceptor - Response status - 404
+[INFO ] 2021-08-30 09:02:14.980 [http-nio-8082-exec-3] EventLoggingAndValidationInterceptor - Response Body - 
+[INFO ] 2021-08-30 09:02:14.981 [http-nio-8082-exec-3] EventLoggingAndValidationInterceptor - EventDetailsView :: {
+  "actionId" : "POST",
+  "serviceOperationCode" : "Fetch reference data values",
+  "serviceCode" : "reference-data-service-api",
+  "requestTime" : "2021-08-30T09:02:14.980"
+}
+[INFO ] 2021-08-30 09:02:17.410 [http-nio-8082-exec-4] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-08-30 09:02:17.410 [http-nio-8082-exec-4] EventLoggingAndValidationInterceptor - Headers value for source key: null
+[INFO ] 2021-08-30 09:02:17.411 [http-nio-8082-exec-4] EventLoggingAndValidationInterceptor - Headers value for requestorId key: null
+[INFO ] 2021-08-30 09:02:17.411 [http-nio-8082-exec-4] EventLoggingAndValidationInterceptor - Headers value for msgRequestCode key: null
+[INFO ] 2021-08-30 09:02:17.411 [http-nio-8082-exec-4] EventLoggingAndValidationInterceptor - Requeust Method: POST
+[INFO ] 2021-08-30 09:02:17.411 [http-nio-8082-exec-4] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-08-30 09:02:17.411 [http-nio-8082-exec-4] EventLoggingAndValidationInterceptor - Headers value are [content-length=77, postman-token=017b1cf1-003a-471d-9fb2-5776433c695c, host=localhost:8082, connection=keep-alive, content-type=application/json, accept-encoding=gzip, deflate, br, accept=*/*, user-agent=PostmanRuntime/7.28.3] ::
+[INFO ] 2021-08-30 09:05:43.876 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-08-30 09:05:43.876 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Headers value for source key: null
+[INFO ] 2021-08-30 09:05:43.876 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Headers value for requestorId key: null
+[INFO ] 2021-08-30 09:05:43.876 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Headers value for msgRequestCode key: null
+[INFO ] 2021-08-30 09:05:43.878 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Requeust Method: POST
+[INFO ] 2021-08-30 09:05:43.881 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-08-30 09:05:43.881 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Headers value are [content-length=77, postman-token=7a51225d-733f-423b-8545-ce1fa17d1912, host=localhost:8082, connection=keep-alive, content-type=application/json, accept-encoding=gzip, deflate, br, accept=*/*, user-agent=PostmanRuntime/7.28.3] ::
+[INFO ] 2021-08-30 09:05:48.201 [http-nio-8082-exec-4] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-08-30 09:05:48.201 [http-nio-8082-exec-4] EventLoggingAndValidationInterceptor - Headers value for source key: null
+[INFO ] 2021-08-30 09:05:48.201 [http-nio-8082-exec-4] EventLoggingAndValidationInterceptor - Headers value for requestorId key: null
+[INFO ] 2021-08-30 09:05:48.201 [http-nio-8082-exec-4] EventLoggingAndValidationInterceptor - Headers value for msgRequestCode key: null
+[INFO ] 2021-08-30 09:05:48.201 [http-nio-8082-exec-4] EventLoggingAndValidationInterceptor - Requeust Method: POST
+[INFO ] 2021-08-30 09:05:48.202 [http-nio-8082-exec-4] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-08-30 09:05:48.202 [http-nio-8082-exec-4] EventLoggingAndValidationInterceptor - Headers value are [content-length=77, postman-token=e847079d-db09-4d3a-a1f2-973820c857d9, host=localhost:8082, connection=keep-alive, content-type=application/json, accept-encoding=gzip, deflate, br, accept=*/*, user-agent=PostmanRuntime/7.28.3] ::
+[INFO ] 2021-08-30 09:06:25.599 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-08-30 09:06:25.600 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Headers value for source key: null
+[INFO ] 2021-08-30 09:06:25.600 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Headers value for requestorId key: null
+[INFO ] 2021-08-30 09:06:25.600 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Headers value for msgRequestCode key: null
+[INFO ] 2021-08-30 09:06:25.600 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Requeust Method: POST
+[INFO ] 2021-08-30 09:06:25.601 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-08-30 09:06:25.601 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Headers value are [content-length=77, postman-token=fb59e335-a0a3-4524-b64f-5f1dedc03ec2, host=localhost:8082, connection=keep-alive, content-type=application/json, accept-encoding=gzip, deflate, br, accept=*/*, user-agent=PostmanRuntime/7.28.3] ::
+[INFO ] 2021-08-30 09:07:55.780 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-08-30 09:07:55.781 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Headers value for source key: null
+[INFO ] 2021-08-30 09:07:55.781 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Headers value for requestorId key: null
+[INFO ] 2021-08-30 09:07:55.781 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Headers value for msgRequestCode key: null
+[INFO ] 2021-08-30 09:07:55.782 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Requeust Method: POST
+[INFO ] 2021-08-30 09:07:55.784 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-08-30 09:07:55.784 [http-nio-8082-exec-1] EventLoggingAndValidationInterceptor - Headers value are [content-length=77, postman-token=83154581-e034-40b4-a7de-b26dbc060279, host=localhost:8082, connection=keep-alive, content-type=application/json, accept-encoding=gzip, deflate, br, accept=*/*, user-agent=PostmanRuntime/7.28.3] ::
+[INFO ] 2021-08-30 09:08:50.532 [http-nio-8082-exec-2] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-08-30 09:08:50.533 [http-nio-8082-exec-2] EventLoggingAndValidationInterceptor - Headers value for source key: null
+[INFO ] 2021-08-30 09:08:50.533 [http-nio-8082-exec-2] EventLoggingAndValidationInterceptor - Headers value for requestorId key: null
+[INFO ] 2021-08-30 09:08:50.533 [http-nio-8082-exec-2] EventLoggingAndValidationInterceptor - Headers value for msgRequestCode key: null
+[INFO ] 2021-08-30 09:08:50.533 [http-nio-8082-exec-2] EventLoggingAndValidationInterceptor - Requeust Method: POST
+[INFO ] 2021-08-30 09:08:50.534 [http-nio-8082-exec-2] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-08-30 09:08:50.535 [http-nio-8082-exec-2] EventLoggingAndValidationInterceptor - Headers value are [content-length=77, postman-token=3e7a51e8-361a-4e45-b827-876e8d9477ec, host=localhost:8082, connection=keep-alive, content-type=application/json, accept-encoding=gzip, deflate, br, accept=*/*, user-agent=PostmanRuntime/7.28.3] ::
+[INFO ] 2021-08-30 09:08:54.096 [http-nio-8082-exec-4] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-08-30 09:08:54.096 [http-nio-8082-exec-4] EventLoggingAndValidationInterceptor - Headers value for source key: null
+[INFO ] 2021-08-30 09:08:54.096 [http-nio-8082-exec-4] EventLoggingAndValidationInterceptor - Headers value for requestorId key: null
+[INFO ] 2021-08-30 09:08:54.096 [http-nio-8082-exec-4] EventLoggingAndValidationInterceptor - Headers value for msgRequestCode key: null
+[INFO ] 2021-08-30 09:08:54.096 [http-nio-8082-exec-4] EventLoggingAndValidationInterceptor - Requeust Method: POST
+[INFO ] 2021-08-30 09:08:54.097 [http-nio-8082-exec-4] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-08-30 09:08:54.097 [http-nio-8082-exec-4] EventLoggingAndValidationInterceptor - Headers value are [content-length=77, postman-token=37c1cf0e-5597-4521-be8a-a8750e782bf6, host=localhost:8082, connection=keep-alive, content-type=application/json, accept-encoding=gzip, deflate, br, accept=*/*, user-agent=PostmanRuntime/7.28.3] ::
+[INFO ] 2021-08-30 09:10:23.402 [http-nio-8082-exec-2] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-08-30 09:10:23.403 [http-nio-8082-exec-2] EventLoggingAndValidationInterceptor - Headers value for source key: null
+[INFO ] 2021-08-30 09:10:23.404 [http-nio-8082-exec-2] EventLoggingAndValidationInterceptor - Headers value for requestorId key: null
+[INFO ] 2021-08-30 09:10:23.404 [http-nio-8082-exec-2] EventLoggingAndValidationInterceptor - Headers value for msgRequestCode key: null
+[INFO ] 2021-08-30 09:10:23.404 [http-nio-8082-exec-2] EventLoggingAndValidationInterceptor - Requeust Method: POST
+[INFO ] 2021-08-30 09:10:23.408 [http-nio-8082-exec-2] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-08-30 09:10:23.409 [http-nio-8082-exec-2] EventLoggingAndValidationInterceptor - Headers value are [content-length=77, postman-token=e7f5e1af-7827-452d-be39-4f51712e5940, host=localhost:8082, connection=keep-alive, content-type=application/json, accept-encoding=gzip, deflate, br, accept=*/*, user-agent=PostmanRuntime/7.28.3] ::
+[INFO ] 2021-09-01 10:31:28.655 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:31:28.658 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Headers value for source key: MI
+[INFO ] 2021-09-01 10:31:28.658 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Headers value for requestorId key: 123
+[INFO ] 2021-09-01 10:31:28.659 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Headers value for msgRequestCode key: msgRequestCode9
+[INFO ] 2021-09-01 10:31:28.659 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Requeust Method: POST
+[INFO ] 2021-09-01 10:31:28.660 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:31:28.661 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Headers value are [content-length=58, key2=2345, msgrequestcode=msgRequestCode9, internalsource=view-appointment-details-api, city=fishers, postman-token=17186c73-006f-4595-89b4-36449d25a011, source=MI, accept=*/*, requestorid=123, host=localhost:8084, connection=keep-alive, content-type=application/json, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.28.3] ::
+[INFO ] 2021-09-01 10:31:35.915 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Requeust Body: {"tableName":"STREETTYPE","code":"RO","key":"DESCRIPTION"}
+[INFO ] 2021-09-01 10:31:35.915 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Response status - 200
+[INFO ] 2021-09-01 10:31:35.915 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Response Body - RD
+[INFO ] 2021-09-01 10:31:35.937 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - EventDetailsView :: {
+  "actionId" : "POST",
+  "serviceOperationCode" : "Fetch reference data values",
+  "messageRequestCode" : "msgRequestCode9",
+  "serviceCode" : "reference-data-service-api",
+  "source" : "MI",
+  "internalSource" : "view-appointment-details-api",
+  "requestTime" : "2021-09-01T10:31:35.917"
+}
+[INFO ] 2021-09-01 10:31:36.043 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:31:36.044 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Headers value for source key: MI
+[INFO ] 2021-09-01 10:31:36.044 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Headers value for requestorId key: 123
+[INFO ] 2021-09-01 10:31:36.044 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Headers value for msgRequestCode key: msgRequestCode9
+[INFO ] 2021-09-01 10:31:36.044 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Requeust Method: POST
+[INFO ] 2021-09-01 10:31:36.044 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:31:36.045 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Headers value are [content-length=58, key2=2345, msgrequestcode=msgRequestCode9, internalsource=view-appointment-details-api, city=fishers, postman-token=17186c73-006f-4595-89b4-36449d25a011, source=MI, accept=*/*, requestorid=123, host=localhost:8084, connection=keep-alive, content-type=application/json, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.28.3] ::
+[INFO ] 2021-09-01 10:31:36.050 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Requeust Body: {"tableName":"STREETTYPE","code":"RO","key":"DESCRIPTION"}
+[INFO ] 2021-09-01 10:31:36.050 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Response status - 200
+[INFO ] 2021-09-01 10:31:36.050 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Response Body - RD
+[INFO ] 2021-09-01 10:31:36.051 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - EventDetailsView :: {
+  "actionId" : "POST",
+  "serviceOperationCode" : "Fetch reference data values",
+  "messageRequestCode" : "msgRequestCode9",
+  "serviceCode" : "reference-data-service-api",
+  "source" : "MI",
+  "internalSource" : "view-appointment-details-api",
+  "requestTime" : "2021-09-01T10:31:36.050"
+}
+[INFO ] 2021-09-01 10:31:36.136 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:31:36.136 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Headers value for source key: MI
+[INFO ] 2021-09-01 10:31:36.137 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Headers value for requestorId key: 123
+[INFO ] 2021-09-01 10:31:36.137 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Headers value for msgRequestCode key: msgRequestCode9
+[INFO ] 2021-09-01 10:31:36.137 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Requeust Method: POST
+[INFO ] 2021-09-01 10:31:36.137 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:31:36.137 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Headers value are [content-length=58, key2=2345, msgrequestcode=msgRequestCode9, internalsource=view-appointment-details-api, city=fishers, postman-token=17186c73-006f-4595-89b4-36449d25a011, source=MI, accept=*/*, requestorid=123, host=localhost:8084, connection=keep-alive, content-type=application/json, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.28.3] ::
+[INFO ] 2021-09-01 10:31:36.141 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Requeust Body: {"tableName":"STREETTYPE","code":"RO","key":"DESCRIPTION"}
+[INFO ] 2021-09-01 10:31:36.141 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Response status - 200
+[INFO ] 2021-09-01 10:31:36.142 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Response Body - RD
+[INFO ] 2021-09-01 10:31:36.142 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - EventDetailsView :: {
+  "actionId" : "POST",
+  "serviceOperationCode" : "Fetch reference data values",
+  "messageRequestCode" : "msgRequestCode9",
+  "serviceCode" : "reference-data-service-api",
+  "source" : "MI",
+  "internalSource" : "view-appointment-details-api",
+  "requestTime" : "2021-09-01T10:31:36.142"
+}
+[INFO ] 2021-09-01 10:31:36.229 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:31:36.229 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Headers value for source key: MI
+[INFO ] 2021-09-01 10:31:36.229 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Headers value for requestorId key: 123
+[INFO ] 2021-09-01 10:31:36.229 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Headers value for msgRequestCode key: msgRequestCode9
+[INFO ] 2021-09-01 10:31:36.229 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Requeust Method: POST
+[INFO ] 2021-09-01 10:31:36.230 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:31:36.230 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Headers value are [content-length=58, key2=2345, msgrequestcode=msgRequestCode9, internalsource=view-appointment-details-api, city=fishers, postman-token=17186c73-006f-4595-89b4-36449d25a011, source=MI, accept=*/*, requestorid=123, host=localhost:8084, connection=keep-alive, content-type=application/json, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.28.3] ::
+[INFO ] 2021-09-01 10:31:36.232 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Requeust Body: {"tableName":"STREETTYPE","code":"RO","key":"DESCRIPTION"}
+[INFO ] 2021-09-01 10:31:36.232 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Response status - 200
+[INFO ] 2021-09-01 10:31:36.233 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Response Body - RD
+[INFO ] 2021-09-01 10:31:36.234 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - EventDetailsView :: {
+  "actionId" : "POST",
+  "serviceOperationCode" : "Fetch reference data values",
+  "messageRequestCode" : "msgRequestCode9",
+  "serviceCode" : "reference-data-service-api",
+  "source" : "MI",
+  "internalSource" : "view-appointment-details-api",
+  "requestTime" : "2021-09-01T10:31:36.233"
+}
+[INFO ] 2021-09-01 10:34:50.774 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:34:50.775 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Headers value for source key: MI
+[INFO ] 2021-09-01 10:34:50.775 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Headers value for requestorId key: 123
+[INFO ] 2021-09-01 10:34:50.775 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Headers value for msgRequestCode key: msgRequestCode9
+[INFO ] 2021-09-01 10:34:50.775 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Requeust Method: POST
+[INFO ] 2021-09-01 10:34:50.776 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:34:50.777 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Headers value are [content-length=58, key2=2345, msgrequestcode=msgRequestCode9, internalsource=view-appointment-details-api, city=fishers, postman-token=4bd4f7f6-251d-46a4-9ba9-dcbe9345266d, source=MI, accept=*/*, requestorid=123, host=localhost:8084, connection=keep-alive, content-type=application/json, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.28.3] ::
+[INFO ] 2021-09-01 10:34:57.612 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Requeust Body: {"tableName":"STREETTYPE","code":"RO","key":"DESCRIPTION"}
+[INFO ] 2021-09-01 10:34:57.612 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Response status - 200
+[INFO ] 2021-09-01 10:34:57.612 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Response Body - RD
+[INFO ] 2021-09-01 10:34:57.635 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - EventDetailsView :: {
+  "actionId" : "POST",
+  "serviceOperationCode" : "Fetch reference data values",
+  "messageRequestCode" : "msgRequestCode9",
+  "serviceCode" : "reference-data-service-api",
+  "source" : "MI",
+  "internalSource" : "view-appointment-details-api",
+  "requestTime" : "2021-09-01T10:34:57.614"
+}
+[INFO ] 2021-09-01 10:34:57.735 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:34:57.735 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Headers value for source key: MI
+[INFO ] 2021-09-01 10:34:57.735 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Headers value for requestorId key: 123
+[INFO ] 2021-09-01 10:34:57.735 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Headers value for msgRequestCode key: msgRequestCode9
+[INFO ] 2021-09-01 10:34:57.735 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Requeust Method: POST
+[INFO ] 2021-09-01 10:34:57.735 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:34:57.736 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Headers value are [content-length=58, key2=2345, msgrequestcode=msgRequestCode9, internalsource=view-appointment-details-api, city=fishers, postman-token=4bd4f7f6-251d-46a4-9ba9-dcbe9345266d, source=MI, accept=*/*, requestorid=123, host=localhost:8084, connection=keep-alive, content-type=application/json, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.28.3] ::
+[INFO ] 2021-09-01 10:34:57.739 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Requeust Body: {"tableName":"STREETTYPE","code":"RO","key":"DESCRIPTION"}
+[INFO ] 2021-09-01 10:34:57.740 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Response status - 200
+[INFO ] 2021-09-01 10:34:57.740 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Response Body - RD
+[INFO ] 2021-09-01 10:34:57.740 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - EventDetailsView :: {
+  "actionId" : "POST",
+  "serviceOperationCode" : "Fetch reference data values",
+  "messageRequestCode" : "msgRequestCode9",
+  "serviceCode" : "reference-data-service-api",
+  "source" : "MI",
+  "internalSource" : "view-appointment-details-api",
+  "requestTime" : "2021-09-01T10:34:57.740"
+}
+[INFO ] 2021-09-01 10:34:57.858 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:34:57.859 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Headers value for source key: MI
+[INFO ] 2021-09-01 10:34:57.860 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Headers value for requestorId key: 123
+[INFO ] 2021-09-01 10:34:57.860 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Headers value for msgRequestCode key: msgRequestCode9
+[INFO ] 2021-09-01 10:34:57.860 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Requeust Method: POST
+[INFO ] 2021-09-01 10:34:57.861 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:34:57.861 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Headers value are [content-length=58, key2=2345, msgrequestcode=msgRequestCode9, internalsource=view-appointment-details-api, city=fishers, postman-token=4bd4f7f6-251d-46a4-9ba9-dcbe9345266d, source=MI, accept=*/*, requestorid=123, host=localhost:8084, connection=keep-alive, content-type=application/json, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.28.3] ::
+[INFO ] 2021-09-01 10:34:57.865 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Requeust Body: {"tableName":"STREETTYPE","code":"RO","key":"DESCRIPTION"}
+[INFO ] 2021-09-01 10:34:57.865 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Response status - 200
+[INFO ] 2021-09-01 10:34:57.865 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Response Body - RD
+[INFO ] 2021-09-01 10:34:57.865 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - EventDetailsView :: {
+  "actionId" : "POST",
+  "serviceOperationCode" : "Fetch reference data values",
+  "messageRequestCode" : "msgRequestCode9",
+  "serviceCode" : "reference-data-service-api",
+  "source" : "MI",
+  "internalSource" : "view-appointment-details-api",
+  "requestTime" : "2021-09-01T10:34:57.865"
+}
+[INFO ] 2021-09-01 10:34:57.952 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:34:57.953 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Headers value for source key: MI
+[INFO ] 2021-09-01 10:34:57.953 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Headers value for requestorId key: 123
+[INFO ] 2021-09-01 10:34:57.953 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Headers value for msgRequestCode key: msgRequestCode9
+[INFO ] 2021-09-01 10:34:57.953 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Requeust Method: POST
+[INFO ] 2021-09-01 10:34:57.953 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:34:57.953 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Headers value are [content-length=58, key2=2345, msgrequestcode=msgRequestCode9, internalsource=view-appointment-details-api, city=fishers, postman-token=4bd4f7f6-251d-46a4-9ba9-dcbe9345266d, source=MI, accept=*/*, requestorid=123, host=localhost:8084, connection=keep-alive, content-type=application/json, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.28.3] ::
+[INFO ] 2021-09-01 10:34:57.956 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Requeust Body: {"tableName":"STREETTYPE","code":"RO","key":"DESCRIPTION"}
+[INFO ] 2021-09-01 10:34:57.956 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Response status - 200
+[INFO ] 2021-09-01 10:34:57.957 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Response Body - RD
+[INFO ] 2021-09-01 10:34:57.962 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - EventDetailsView :: {
+  "actionId" : "POST",
+  "serviceOperationCode" : "Fetch reference data values",
+  "messageRequestCode" : "msgRequestCode9",
+  "serviceCode" : "reference-data-service-api",
+  "source" : "MI",
+  "internalSource" : "view-appointment-details-api",
+  "requestTime" : "2021-09-01T10:34:57.961"
+}
+[INFO ] 2021-09-01 10:37:29.846 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:37:29.847 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Headers value for source key: MI
+[INFO ] 2021-09-01 10:37:29.847 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Headers value for requestorId key: 123
+[INFO ] 2021-09-01 10:37:29.847 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Headers value for msgRequestCode key: msgRequestCode9
+[INFO ] 2021-09-01 10:37:29.847 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Requeust Method: POST
+[INFO ] 2021-09-01 10:37:29.848 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:37:29.848 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Headers value are [content-length=58, key2=2345, msgrequestcode=msgRequestCode9, internalsource=view-appointment-details-api, city=fishers, postman-token=0384c65b-66be-4aac-9208-76ed4e637654, source=MI, accept=*/*, requestorid=123, host=localhost:8084, connection=keep-alive, content-type=application/json, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.28.3] ::
+[INFO ] 2021-09-01 10:37:36.954 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Requeust Body: {"tableName":"STREETTYPE","code":"RO","key":"DESCRIPTION"}
+[INFO ] 2021-09-01 10:37:36.954 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Response status - 200
+[INFO ] 2021-09-01 10:37:36.954 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - Response Body - RD
+[INFO ] 2021-09-01 10:37:36.973 [http-nio-8084-exec-1] EventLoggingAndValidationInterceptor - EventDetailsView :: {
+  "actionId" : "POST",
+  "serviceOperationCode" : "Fetch reference data values",
+  "messageRequestCode" : "msgRequestCode9",
+  "serviceCode" : "reference-data-service-api",
+  "source" : "MI",
+  "internalSource" : "view-appointment-details-api",
+  "requestTime" : "2021-09-01T10:37:36.956"
+}
+[INFO ] 2021-09-01 10:37:37.072 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:37:37.072 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Headers value for source key: MI
+[INFO ] 2021-09-01 10:37:37.073 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Headers value for requestorId key: 123
+[INFO ] 2021-09-01 10:37:37.073 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Headers value for msgRequestCode key: msgRequestCode9
+[INFO ] 2021-09-01 10:37:37.073 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Requeust Method: POST
+[INFO ] 2021-09-01 10:37:37.073 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:37:37.074 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Headers value are [content-length=58, key2=2345, msgrequestcode=msgRequestCode9, internalsource=view-appointment-details-api, city=fishers, postman-token=0384c65b-66be-4aac-9208-76ed4e637654, source=MI, accept=*/*, requestorid=123, host=localhost:8084, connection=keep-alive, content-type=application/json, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.28.3] ::
+[INFO ] 2021-09-01 10:37:37.079 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Requeust Body: {"tableName":"STREETTYPE","code":"RO","key":"DESCRIPTION"}
+[INFO ] 2021-09-01 10:37:37.082 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Response status - 200
+[INFO ] 2021-09-01 10:37:37.083 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - Response Body - RD
+[INFO ] 2021-09-01 10:37:37.083 [http-nio-8084-exec-2] EventLoggingAndValidationInterceptor - EventDetailsView :: {
+  "actionId" : "POST",
+  "serviceOperationCode" : "Fetch reference data values",
+  "messageRequestCode" : "msgRequestCode9",
+  "serviceCode" : "reference-data-service-api",
+  "source" : "MI",
+  "internalSource" : "view-appointment-details-api",
+  "requestTime" : "2021-09-01T10:37:37.083"
+}
+[INFO ] 2021-09-01 10:37:37.164 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:37:37.164 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Headers value for source key: MI
+[INFO ] 2021-09-01 10:37:37.164 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Headers value for requestorId key: 123
+[INFO ] 2021-09-01 10:37:37.165 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Headers value for msgRequestCode key: msgRequestCode9
+[INFO ] 2021-09-01 10:37:37.165 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Requeust Method: POST
+[INFO ] 2021-09-01 10:37:37.165 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:37:37.165 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Headers value are [content-length=58, key2=2345, msgrequestcode=msgRequestCode9, internalsource=view-appointment-details-api, city=fishers, postman-token=0384c65b-66be-4aac-9208-76ed4e637654, source=MI, accept=*/*, requestorid=123, host=localhost:8084, connection=keep-alive, content-type=application/json, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.28.3] ::
+[INFO ] 2021-09-01 10:37:37.168 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Requeust Body: {"tableName":"STREETTYPE","code":"RO","key":"DESCRIPTION"}
+[INFO ] 2021-09-01 10:37:37.169 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Response status - 200
+[INFO ] 2021-09-01 10:37:37.169 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - Response Body - RD
+[INFO ] 2021-09-01 10:37:37.170 [http-nio-8084-exec-3] EventLoggingAndValidationInterceptor - EventDetailsView :: {
+  "actionId" : "POST",
+  "serviceOperationCode" : "Fetch reference data values",
+  "messageRequestCode" : "msgRequestCode9",
+  "serviceCode" : "reference-data-service-api",
+  "source" : "MI",
+  "internalSource" : "view-appointment-details-api",
+  "requestTime" : "2021-09-01T10:37:37.169"
+}
+[INFO ] 2021-09-01 10:37:37.242 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:37:37.242 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Headers value for source key: MI
+[INFO ] 2021-09-01 10:37:37.243 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Headers value for requestorId key: 123
+[INFO ] 2021-09-01 10:37:37.243 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Headers value for msgRequestCode key: msgRequestCode9
+[INFO ] 2021-09-01 10:37:37.243 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Requeust Method: POST
+[INFO ] 2021-09-01 10:37:37.244 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Requeust URI: /rd/fetch
+[INFO ] 2021-09-01 10:37:37.244 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Headers value are [content-length=58, key2=2345, msgrequestcode=msgRequestCode9, internalsource=view-appointment-details-api, city=fishers, postman-token=0384c65b-66be-4aac-9208-76ed4e637654, source=MI, accept=*/*, requestorid=123, host=localhost:8084, connection=keep-alive, content-type=application/json, accept-encoding=gzip, deflate, br, user-agent=PostmanRuntime/7.28.3] ::
+[INFO ] 2021-09-01 10:37:37.247 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Requeust Body: {"tableName":"STREETTYPE","code":"RO","key":"DESCRIPTION"}
+[INFO ] 2021-09-01 10:37:37.248 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Response status - 200
+[INFO ] 2021-09-01 10:37:37.248 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - Response Body - RD
+[INFO ] 2021-09-01 10:37:37.248 [http-nio-8084-exec-4] EventLoggingAndValidationInterceptor - EventDetailsView :: {
+  "actionId" : "POST",
+  "serviceOperationCode" : "Fetch reference data values",
+  "messageRequestCode" : "msgRequestCode9",
+  "serviceCode" : "reference-data-service-api",
+  "source" : "MI",
+  "internalSource" : "view-appointment-details-api",
+  "requestTime" : "2021-09-01T10:37:37.248"
+}

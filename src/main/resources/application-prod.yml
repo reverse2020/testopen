@@ -1,0 +1,48 @@
+server:
+  port : 8082
+
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@hcs431brgppa910.state.mi.us:1521/brg1db.michigan.gov
+    driverClassName: oracle.jdbc.OracleDriver
+    username: DEV_BRGCON
+    password: kEzuYe5aqU6UyeP
+    
+
+logging:
+  level:
+    root: ERROR
+    org.springframework.web: TRACE
+    org.springframework.jdbc.core: TRACE
+    com.mi.*: TRACE
+
+  pattern:
+    console: '%d{yyyy-MM-dd HH:mm:ss} - %msg%n'
+    file: '%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n'
+  file:
+    name: appointment-service.log
+    max-size: 5KB      
+
+
+
+
+shared:
+  services:
+    url: http://localhost:8080/users/{indvId}/fetchappointmentdata
+    
+    
+http:
+  pool:
+    config:
+      appointment-service:
+        max_total: 1000
+        max_per_route: 500
+        request_timeout: 50000
+        connection_timeout: 50000
+        socket_timeout: 500000
+        read_timeout: 50000
+
+thread-pool:
+  appointment-service:
+    core-pool-size: 500
+    max-pool-size: 600

@@ -1,0 +1,31 @@
+server:
+  port : 9090
+
+spring:
+  datasource:
+    url: jdbc:oracle:oci:@(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = hcs431brgppa910.state.mi.us)(PORT = 1521)) (CONNECT_DATA = (SERVICE_NAME = brg1db.michigan.gov)))
+    driverClassName: oracle.jdbc.OracleDriver
+    username: DEV_BRGCON
+    password: kEzuYe5aqU6UyeP
+    events:
+  serviceCode: ${TEST}
+     
+logging:
+  prettyPrint: true   
+    
+    
+http:
+  pool:
+    config:
+      rt-service:
+        max_total: 1000
+        max_per_route: 500
+        request_timeout: 50000
+        connection_timeout: 50000
+        socket_timeout: 500000
+        read_timeout: 50000
+
+thread-pool:
+  rt-service:
+    core-pool-size: 500
+    max-pool-size: 600
