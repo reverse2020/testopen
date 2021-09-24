@@ -12,14 +12,21 @@ import lombok.extern.slf4j.Slf4j;
 public class ReferenceDataController {
 
 	
-	@Value("${events.serviceCode}")
-	private String serviceCode;
+	private String serviceCode="test";
 	
 	@GetMapping("/hello")
 	@Operation(summary = "API #1 level comment goes here ......")
 	public String hello() {
 		
 		return "Hello, " + serviceCode; 
+
+	}
+	
+		@GetMapping("/hello1")
+	@Operation(summary = "API #1 level comment goes here ......")
+	public String hello() {
+		
+		return "Hello"; 
 
 	}
 }
