@@ -24,7 +24,7 @@ public class ReferenceDataController {
 	
 		@GetMapping("/hello1")
 	@Operation(summary = "API #1 level comment goes here ......")
-	public String hello() {
+	public String hello1() {
 		
 		return "Hello"; 
 
