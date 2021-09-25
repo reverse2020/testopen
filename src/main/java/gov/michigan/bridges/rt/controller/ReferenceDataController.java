@@ -12,7 +12,8 @@ import lombok.extern.slf4j.Slf4j;
 public class ReferenceDataController {
 
 	
-	private String serviceCode="test";
+	@Value("${events.serviceCode}")
+	private String serviceCode;
 	
 	@GetMapping("/hello")
 	@Operation(summary = "API #1 level comment goes here ......")
