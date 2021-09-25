@@ -11,7 +11,7 @@ spring:
     
     
 events:
-  serviceCode: reference-data-service-api
+  serviceCode: ${TEST}
 
   
 logging:
